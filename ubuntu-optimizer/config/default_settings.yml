@@ -1,0 +1,19 @@
+default_settings:
+  memory_optimization:
+    enabled: true
+    threshold: 80  # Percentage of memory usage to trigger optimization
+  disk_cleanup:
+    enabled: true
+    threshold: 90  # Percentage of disk usage to trigger cleanup
+  startup_manager:
+    enabled: true
+    applications:
+      - name: "example_app"
+        command: "example_command"
+  system_tweaks:
+    enabled: true
+    tweaks:
+      - name: "disable_animations"
+        value: true
+      - name: "enable_compositor"
+        value: false
